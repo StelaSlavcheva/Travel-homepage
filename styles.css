@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@400;600&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+body {
+    margin: 0;
+    font-family: Gelasio;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: white;
+}
+
+a {
+    color: #c6c6c6;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 60px;
+    background-image: url(./images/map.jpg);
+    background-size: cover;
+}
+
+.top-nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 60%;
+    /* border: 3px solid pink; */
+}
+
+.top-navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 40px;
+    /* border: 3px solid rgb(55, 240, 49); */
+}
+
+.planet-image-wrapper {
+    width: 70px;
+    height: 70px;
+}
+
+.planet-image-wrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.login-wrapper {
+    display: flex;
+    flex-direction: row;
+    color: darkgray;
+    gap: 20px;
+}
+
+.header-slogan {
+    font-size: 95px;
+}
+
+.startNow-btn {
+    background-color: #146594;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+main {
+    background-color: #e1e1e1;
+    padding: 20px 220px;
+}
+
+.main-title {
+    font-size: 35px;
+    color: #53595c;
+    padding-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    height: 70vh;
+    flex-direction: row;
+}
+
+.vertical {
+    width: 40%;
+    height: 100%;
+    background: url(./images/packing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+.horizontal-top {
+    flex-grow: 1;
+    background: url(./images/planning.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.horizontal-bottom {
+    flex-grow: 1;
+    background: url(./images/budget.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.vertical-h2 {
+    padding-top: 65px;
+}
+
+.horizontal-bottom-h2 {
+    padding: 30px 15px;
+}
+
+footer {
+    height: 10vh;
+    background-color: #8c8c8c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left,
+.center,
+.right {
+    padding: 30px 60px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+footer li {
+    padding: 0 17px;
+    border-right: 1px solid silver;
+}
+
+footer li:last-child {
+    border: none;
+}
